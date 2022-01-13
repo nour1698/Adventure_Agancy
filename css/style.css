@@ -1,0 +1,229 @@
+main{
+    min-height: 1000px;
+    overflow: hidden;
+}
+header{
+    min-height: 800px;
+    background: url(../images/b1.jpg) no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+.inner-header1{
+    background-color:transparent !important ;
+}
+
+.boxes{
+    position: relative;
+    height: 50vh;
+
+}
+.box1{
+    height: 200px;
+    border:5px solid yellow;
+    position: absolute;
+    left:25%;
+    top:25%;
+}
+.box2{
+    background: #fff9;
+    height: 150px;
+    position: absolute;
+    left:30%;
+    top:50%;
+    backdrop-filter: blur(10px);
+}
+h1{
+    color: #0aa55d;
+
+}
+.sec1{
+    min-height: 400px;
+    background: #fff;
+}
+.cards{
+    height: 400px;
+
+}
+.container1{
+    position: relative;
+    width: 250px;
+    height: 300px;
+    margin: 50px auto;
+    perspective: 600px;
+}
+.thecard{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transition: 1s all;
+    transform-style: preserve-3d;/*flat*/
+}
+.bk {
+    color: #F2B807;
+    margin: 0;
+    
+}
+.pb {
+    color: black;
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.front1{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: url(../images/ab1.jpg);
+    background-size: cover;
+    
+}
+.back1{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background:white;
+    backface-visibility: hidden;
+    transform:rotateY(180deg);
+    padding: 20px;
+}
+.front2{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: url(../images/ab2.jpg);
+    background-size: cover;
+    
+}
+.back2{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    backface-visibility: hidden;
+    transform:rotateY(180deg);
+    padding: 20px;
+}
+.front3{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: url(../images/ab3.jpg);
+    background-size: cover;
+    
+}
+.back3{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background:white;
+    backface-visibility: hidden;
+    transform:rotateY(180deg);
+    padding: 20px;
+}
+.front4{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: url(../images/ab1.jpg);
+    background-size: cover;
+    
+}
+.back4{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background:white;
+    backface-visibility: hidden;
+    transform:rotateY(180deg);
+    padding: 20px;
+
+}
+.thecard:hover{
+    transform:rotateY(180deg);
+}
+.sec2{
+    min-height: 450px;
+    background: url(../images/b3.jpg) no-repeat;
+    background-size: cover;
+    background-position:center ;
+}
+
+.icons{
+    height: 150px;
+    width:150px;
+    border-radius:50%;
+    border:2px solid #fff;
+    color:#fff;
+    text-align: center;
+    line-height: 150px;
+    font-size: 40px;
+}
+.sec3{
+    min-height: 600px;
+}
+.sec3 i{
+    font-size: 40px;
+}
+.text-center{
+    margin-top: 10px;
+}
+.sec4{
+    
+min-height: 400px;
+background-color:#F2F2F2 ;
+}
+.sec6{
+    min-height: 600px;
+    background-color:#F2F2F2 ;
+    
+}
+.more1{
+    background: url(../images/b4.jpg) no-repeat;
+    background-size: cover;
+}
+.more2{
+    background: url(../images/g6.jpg) no-repeat;
+    background-size: cover;
+}
+.sec7{
+    min-height: 600px;
+}
+.sec8{
+    min-height: 500px;
+    background: url(../images/b4.jpg) no-repeat;
+    background-size: cover;
+    background-position-y: -250px;
+}
+.sec9{
+    min-height: 700px;
+}
+input{
+    height: 50px;
+}
+input[name="message"]{
+    height: 300px;
+}
+footer{
+    min-height: 300px;
+    background-color: black;
+}
+footer i{
+    font-size: 50px;
+    color:white
+}
+p{
+    color: white;
+    font-size: 20px;
+}
+.sec7 p{
+    color: black;
+}
+h2{
+    color: #F2B807;
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+h4{
+    margin-top: 50px;
+    font-size: 30px;
+}
